@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1.0 initial-scale=1.0">
+    <title>Assignment-javaScript</title>
+    <!-- boots strap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Assignment</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-toggler-light"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">chapter 15-20</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    
+    </header>
+    <main>
+
+        <main class="flex-grow-1">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col mt-5">
+                        <h4 class="text-center">Chapter # 15 - 20 | Arrays: It's Methods &amp; for loops</h4>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12 col-md-6">
+                        <h3 class="text-center">Input</h3>
+                        <div class="border rounded-3 h-75 p-3 d-flex align-items-center">
+                            <div class="input-group">
+                                <input type="text" name="display" class="form-control bg-transparent" placeholder="Type your text here" id="inputText">
+                                <button class="btn btn-outline-secondary" id="clearBtn" onclick="display.value = '' ">Clear</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-4 mt-md-0 col-md-6">
+                        <h3 class="text-center">Original String</h3>
+                        <div style="background-color: #1d3557;" class=" border rounded-3 h-75 py-3 px-5  d-flex align-items-center text-white"
+                            id="original-string">
+                            <div class="text-center">
+                                1) Faisalabad &nbsp;
+                                2) Lahore &nbsp;
+                                3) Karachi &nbsp;
+                                4) Islamabad &nbsp;
+                                5) Burewala &nbsp;
+                                6) Shekhupura &nbsp;
+                                7) Kashmir
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6 text-center">
+                        <h3>Buttons</h3>
+                        <div class="border rounded-3 p-4" id="buttons">
+                            <button class="btn btn-lg btn-danger mb-2 text-capitalize" onclick="simpleAlert()">Simple
+                                Alert</button>
+                            <button class="btn btn-lg btn-danger mb-2 text-capitalize" onclick="printName()">print my
+                                name</button>
+                            <button class="btn btn-lg btn-danger mb-2 text-capitalize" onclick="printAllCities()">print
+                                all cities</button>
+                            <button class="btn btn-lg btn-danger mb-2 text-capitalize" onclick="addCity()">add your city
+                                in list</button>
+                            <button class="btn btn-lg btn-danger text-capitalize" onclick="generateTable()">generate
+                                table</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mt-5 mt-md-0 text-center">
+                        <h3>Output / Result</h3>
+                        <div class="border rounded-3 p-5" id="output"></div>
+                        <button class="btn btn-outline-secondary text-capitalize mt-3" onclick="clearOutput()">clear
+                            output</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- footer -->
+        <footer class="py-3 mt-5 mt-4 p-3 text-light text-center" style="background-color: #1d3557;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="text-white text-center mb-0">© 2024. Assignments By <a href="M Abdullah" class="text-white fw-bold text-decoration-none">www.Muhammad Abdullah.net</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- boots strap js -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <!-- custom java-script -->
+        <script src="script.js"></script>
+</body>
+</html>
